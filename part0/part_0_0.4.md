@@ -1,3 +1,4 @@
+```
 sequenceDiagram
 participant browser
 participant server
@@ -30,3 +31,4 @@ server-->browser: the JSON file [{"content": "holaaaa", "date": "2023-12-01T16:2
 deactivate server
 
 Note right of browser: The browser executes the callback function that renders the notes
+```
