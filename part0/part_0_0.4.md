@@ -1,7 +1,6 @@
-```
 sequenceDiagram
-    participant browser
-    participant server
+participant browser
+participant server
 
 browser->>server: POST http://studies.cs.helsinki.fi/exampleapp/new_note
 activate server
@@ -31,4 +30,3 @@ server-->browser: the JSON file [{"content": "holaaaa", "date": "2023-12-01T16:2
 deactivate server
 
 Note right of browser: The browser executes the callback function that renders the notes
-```
